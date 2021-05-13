@@ -53,6 +53,26 @@
              </item>
              <item>
               <property name="text">
+               <string>time,after</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>day,night</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>lethal,non-lethal</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>super,aweful</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>live,evil</string>
               </property>
              </item>
