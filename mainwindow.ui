@@ -53,6 +53,71 @@
              </item>
              <item>
               <property name="text">
+               <string>something,nothing</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hear,see</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hearing,seeing</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>this,that</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>who,me</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>why,fact</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>i,you</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>we,them</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>need,dontneed</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>test,final</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>first,last</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>lived,devil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>under,over</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>like,hate</string>
               </property>
              </item>
