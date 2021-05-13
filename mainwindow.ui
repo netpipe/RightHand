@@ -31,7 +31,7 @@
         <item row="0" column="0">
          <widget class="QGroupBox" name="groupBox">
           <property name="title">
-           <string>Translator/Substitution</string>
+           <string>Translator/Substitution/(dyslexic simulator ?)</string>
           </property>
           <layout class="QGridLayout" name="gridLayout">
            <item row="1" column="1">
@@ -49,6 +49,41 @@
              <item>
               <property name="text">
                <string>yes,no</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>live,evil</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>special,non-special</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>important,non-important</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>blow,suck</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>their,my</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>good,bad</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>here,there</string>
               </property>
              </item>
              <item>

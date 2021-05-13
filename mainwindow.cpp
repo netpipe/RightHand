@@ -35,7 +35,7 @@ void MainWindow::on_translatebtn_clicked()
         //QString str2 = str.split(",").first();
         QStringList strlist = str.split(",");
 
-    if    ( strlist.at(0).toLatin1().length() >= 2 ){
+    if    ( strlist.at(0).toLatin1().length() >= 1 ){ //larger words not usually mistaken for start of sentances
 
 
             tbuff2 = strlist.at(0).toLatin1();
