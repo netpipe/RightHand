@@ -53,6 +53,11 @@
              </item>
              <item>
               <property name="text">
+               <string>laughing,notcare</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>time,after</string>
               </property>
              </item>

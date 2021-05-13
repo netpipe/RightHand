@@ -20,6 +20,8 @@ private slots:
 
     void on_sublist_itemSelectionChanged();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

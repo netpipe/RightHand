@@ -14,101 +14,66 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+// Convert input string to list of tokens
+// Each token is either a word (sequence of letters)
+// or a non-word (numeric, symbol, etc)
+QStringList tokenizeInput(QString input) {
+    QStringList tokenList;
+    QString currentToken;
+    for(int i = 0; i < input.length(); i++) {
+        if (input[i].isLetter()){
+            // keep accumulating letters that form a word
+            currentToken += input[i];
+        } else {
+            // if there is an accumulated word, flush to the list
+            if (currentToken.length() != 0) {
+                tokenList.append(currentToken);
+                currentToken.clear();
+            }
+            // add the non-word token into token list (e.g. space/symbol/digit)
+            tokenList.append(QString(input[i]));
+        }
+    }
+    // the input can end with a letter, flush if there is an accumulated word
+    if (currentToken.length() != 0) {
+        tokenList.append(currentToken);
+    }
+    // return produced token list
+    return tokenList;
+}
 
 void MainWindow::on_translatebtn_clicked()
 {
-    QString tbuff = ui->input->toPlainText().toLatin1();
+    // Grab the input string to translate/substitute
+    QString input = ui->input->toPlainText().toLatin1();
 
-    QString tbuff2;
-    QString tbuff3;
-
-    int count = ui->sublist->count();
-    qDebug() << count;
-    for(int index = 0;
-        index < count;
-        index++)
-    {
-      //  QListWidgetItem * item = ui->sublist->item(index);
+    // Build rule map
+    QMap<QString, QString> ruleMap;
+    int ruleCount = ui->sublist->count();
+    qDebug() << ruleCount;
+    for (int i = 0; i < ruleCount; i++) {
         // A wild item has appeared
-        QString str = ui->sublist->item(index)->text();
-//qDebug() << str;
-        //QString str2 = str.split(",").first();
-        QStringList strlist = str.split(",");
-
-    if    ( strlist.at(0).toLatin1().length() >= 1 ){ //larger words not usually mistaken for start of sentances
-
-
-            tbuff2 = strlist.at(0).toLatin1();
-            tbuff3 = strlist.at(1).toLatin1();
-
-            tbuff.replace(tbuff2.toLatin1(),"tstemp1");
-            tbuff.replace(tbuff3.toLatin1(),tbuff2.toLatin1());
-            tbuff.replace("tstemp1",tbuff3.toLatin1());
-
-            qDebug() << tbuff2.toLatin1() << tbuff3.toLatin1();
-
-
-       //     tbuff2 = strlist.at(0).toLatin1();
-      //      tbuff2 += " ";
-       //     tbuff3 = strlist.at(1).toLatin1();
-        //    tbuff3 += " ";
-
-       //     tbuff.replace(tbuff2.toLatin1(),"tstemp1");
-        //    tbuff.replace(tbuff3.toLatin1(),tbuff2.toLatin1());
-        //    tbuff.replace("tstemp1",tbuff3.toLatin1());
-    }else{
-        tbuff2 = " ";
-        tbuff2 += strlist.at(0).toLatin1();
-        tbuff2 += " ";
-        tbuff3 = " ";
-        tbuff3 += strlist.at(1).toLatin1();
-        tbuff3 += " ";
-
-        //tbuff.replace(tbuff2.toLatin1(),tbuff3.toLatin1());
-        tbuff.replace(tbuff2.toLatin1(),"tstemp1");
-        tbuff.replace(tbuff3.toLatin1(),tbuff2.toLatin1());
-        tbuff.replace("tstemp1",tbuff3.toLatin1());
- qDebug() << "check space before and after";
-
-        tbuff2 = ".";
-        tbuff2 += strlist.at(0).toLatin1();
-        tbuff2 += " ";
-        tbuff3 = ".";
-        tbuff3 += strlist.at(1).toLatin1();
-        tbuff3 += " ";
-
-        tbuff.replace(tbuff2.toLatin1(),"tstemp1");
-        tbuff.replace(tbuff3.toLatin1(),tbuff2.toLatin1());
-        tbuff.replace("tstemp1",tbuff3.toLatin1());
- qDebug() << "check period before";
-        tbuff2 = " ";
-        tbuff2 += strlist.at(0).toLatin1();
-        tbuff2 += ".";
-        tbuff3 = " ";
-        tbuff3 += strlist.at(1).toLatin1();
-        tbuff3 += ".";
-
-        tbuff.replace(tbuff2.toLatin1(),"tstemp1");
-        tbuff.replace(tbuff3.toLatin1(),tbuff2.toLatin1());
-        tbuff.replace("tstemp1",tbuff3.toLatin1());
- qDebug() << "check period after";
-
-
-}
-        //sometimes its just single and double letters that are the problem so just do normal if not longer than 2 or 3 chars
-
-
-//qDebug() << tbuff2.toLatin1() << tbuff3.toLatin1();
-
-
-
-        //do both tbuff2 and tbuff3 on new or non changed words / name them with a number then swap them back after.
-    //also add the . and comma's from the searched words to replace
+        QString ruleStr = ui->sublist->item(i)->text();
+        QStringList ruleTokens = ruleStr.split(",");
+        ruleMap.insert(ruleTokens.at(0), ruleTokens.at(1));
     }
 
-        ui->translated->setText(tbuff.toLatin1());
+    // Convert input to list of tokens (words and non-words)
+    QStringList inputTokens = tokenizeInput(input);
 
+    // Produce output using list of input tokens and rule map
+    QString output;
+    for (int i=0; i < inputTokens.length(); i++){
+        QString inputToken = inputTokens.at(i);
+        if (ruleMap.contains(inputToken)) {
+            output.append(ruleMap[inputToken]);
+        } else {
+            output.append(inputToken);
+        }
+    }
 
+    // Update UI with produced output
+    ui->translated->setText(output.toLatin1());
 }
 
 void MainWindow::on_sublist_itemSelectionChanged()
