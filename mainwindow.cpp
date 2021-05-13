@@ -42,7 +42,7 @@ qDebug() << str;
         tbuff.replace(tbuff2.toLatin1(),"tstemp");
         tbuff.replace(tbuff3.toLatin1(),tbuff2.toLatin1());
         tbuff.replace("tstemp",tbuff3.toLatin1());
-qDebug() << tbuff2.toLatin1() << tbuff3.toLatin1();
+//qDebug() << tbuff2.toLatin1() << tbuff3.toLatin1();
 
 
 

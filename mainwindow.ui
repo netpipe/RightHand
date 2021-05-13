@@ -53,6 +53,61 @@
              </item>
              <item>
               <property name="text">
+               <string>hole,scab</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>boots,shoes</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>wet,dry</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>then,now</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>buy,sell</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>vagina,dick</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>her,him</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>his,hers</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>step,dash</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>nice,nasty</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>crap,fuck</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>something,nothing</string>
               </property>
              </item>
