@@ -51,6 +51,101 @@
                <string>yes,no</string>
               </property>
              </item>
+             <item>
+              <property name="text">
+               <string>like,hate</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hi,bye</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>sit,stand</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>happy,sad</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>up,down</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>in,out</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>fart,metal</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>desire,disrespect</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>smile,frown</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>pain,pleasure</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>ass,face</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hand,foot</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>give,take</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>get,getaway</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>send,receive</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>careful,wreckless</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>broken,fixed</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>more,less</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>run,walk</string>
+              </property>
+             </item>
             </widget>
            </item>
            <item row="0" column="1">
