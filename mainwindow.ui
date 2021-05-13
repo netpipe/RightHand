@@ -53,6 +53,31 @@
              </item>
              <item>
               <property name="text">
+               <string>push,pull</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>light,dark</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>stop,go</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>old,young</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>drunk,sober</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>hole,scab</string>
               </property>
              </item>

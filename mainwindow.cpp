@@ -31,17 +31,73 @@ void MainWindow::on_translatebtn_clicked()
       //  QListWidgetItem * item = ui->sublist->item(index);
         // A wild item has appeared
         QString str = ui->sublist->item(index)->text();
-qDebug() << str;
+//qDebug() << str;
         //QString str2 = str.split(",").first();
         QStringList strlist = str.split(",");
 
-        tbuff2 = strlist.at(0).toLatin1();
-        tbuff3 = strlist.at(1).toLatin1();
+    if    ( strlist.at(0).toLatin1().length() >= 2 ){
+
+
+            tbuff2 = strlist.at(0).toLatin1();
+            tbuff3 = strlist.at(1).toLatin1();
+
+            tbuff.replace(tbuff2.toLatin1(),"tstemp1");
+            tbuff.replace(tbuff3.toLatin1(),tbuff2.toLatin1());
+            tbuff.replace("tstemp1",tbuff3.toLatin1());
+
+            qDebug() << tbuff2.toLatin1() << tbuff3.toLatin1();
+
+
+       //     tbuff2 = strlist.at(0).toLatin1();
+      //      tbuff2 += " ";
+       //     tbuff3 = strlist.at(1).toLatin1();
+        //    tbuff3 += " ";
+
+       //     tbuff.replace(tbuff2.toLatin1(),"tstemp1");
+        //    tbuff.replace(tbuff3.toLatin1(),tbuff2.toLatin1());
+        //    tbuff.replace("tstemp1",tbuff3.toLatin1());
+    }else{
+        tbuff2 = " ";
+        tbuff2 += strlist.at(0).toLatin1();
+        tbuff2 += " ";
+        tbuff3 = " ";
+        tbuff3 += strlist.at(1).toLatin1();
+        tbuff3 += " ";
 
         //tbuff.replace(tbuff2.toLatin1(),tbuff3.toLatin1());
-        tbuff.replace(tbuff2.toLatin1(),"tstemp");
+        tbuff.replace(tbuff2.toLatin1(),"tstemp1");
         tbuff.replace(tbuff3.toLatin1(),tbuff2.toLatin1());
-        tbuff.replace("tstemp",tbuff3.toLatin1());
+        tbuff.replace("tstemp1",tbuff3.toLatin1());
+ qDebug() << "check space before and after";
+
+        tbuff2 = ".";
+        tbuff2 += strlist.at(0).toLatin1();
+        tbuff2 += " ";
+        tbuff3 = ".";
+        tbuff3 += strlist.at(1).toLatin1();
+        tbuff3 += " ";
+
+        tbuff.replace(tbuff2.toLatin1(),"tstemp1");
+        tbuff.replace(tbuff3.toLatin1(),tbuff2.toLatin1());
+        tbuff.replace("tstemp1",tbuff3.toLatin1());
+ qDebug() << "check period before";
+        tbuff2 = " ";
+        tbuff2 += strlist.at(0).toLatin1();
+        tbuff2 += ".";
+        tbuff3 = " ";
+        tbuff3 += strlist.at(1).toLatin1();
+        tbuff3 += ".";
+
+        tbuff.replace(tbuff2.toLatin1(),"tstemp1");
+        tbuff.replace(tbuff3.toLatin1(),tbuff2.toLatin1());
+        tbuff.replace("tstemp1",tbuff3.toLatin1());
+ qDebug() << "check period after";
+
+
+}
+        //sometimes its just single and double letters that are the problem so just do normal if not longer than 2 or 3 chars
+
+
 //qDebug() << tbuff2.toLatin1() << tbuff3.toLatin1();
 
 
