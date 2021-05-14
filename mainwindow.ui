@@ -53,7 +53,62 @@
              </item>
              <item>
               <property name="text">
+               <string>leader,enemy</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>blank,occupy</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>occupied,unoccupied</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>duck,potato</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>shoot,miss</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>rain,drought</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>rains,droughts</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>stormy,cloudy</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>storming,clearing</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>storm,clear</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>beer,hangover</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>stale,fresh</string>
               </property>
              </item>
              <item>
