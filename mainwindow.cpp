@@ -78,8 +78,17 @@ void MainWindow::on_translatebtn_clicked()
         }
     }
 
+
+    if (ui->reversed->isChecked()){
+   //     std::reverse(output.begin(), output.end());
+    };
+
     // Update UI with produced output
     ui->translated->setText(output.toLatin1());
+
+
+
+
 }
 
 void MainWindow::on_sublist_itemSelectionChanged()
