@@ -53,6 +53,71 @@
              </item>
              <item>
               <property name="text">
+               <string>will,wont</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>talk,silent</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>brothers,sisters</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>dog,cats</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>on,off</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>none,many</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>a,not</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>riding,falling</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>air,aether</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>sea,desert</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>traveled,stayed</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>flew,land</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>best,worst</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>too,not-there</string>
               </property>
              </item>
