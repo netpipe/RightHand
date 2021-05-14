@@ -53,6 +53,11 @@
              </item>
              <item>
               <property name="text">
+               <string>click,cut</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>she,he</string>
               </property>
              </item>
