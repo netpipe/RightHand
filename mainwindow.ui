@@ -53,6 +53,66 @@
              </item>
              <item>
               <property name="text">
+               <string>too,not-there</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>mcdonalds,moms</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>the,missing</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>empty,full</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hungry,unhungry</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>time,notime</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>motors,feet</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>it,anybody</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>smoke,no-smoking</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>easy,hard</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>how,not</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>to,not-to</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>time,after</string>
               </property>
              </item>
@@ -84,6 +144,36 @@
              <item>
               <property name="text">
                <string>important,non-important</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>know,not-know</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>feel,not-feel</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>feal,sedated</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>show,hide</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>loonie,product</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>tomorrow,anyday</string>
               </property>
              </item>
              <item>
