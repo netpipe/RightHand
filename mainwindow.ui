@@ -90,6 +90,11 @@
              </item>
              <item>
               <property name="text">
+               <string>modules,bananas</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>ever,bit</string>
               </property>
              </item>

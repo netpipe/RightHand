@@ -9,6 +9,9 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    on_import_2_clicked();
+
 }
 
 MainWindow::~MainWindow()
@@ -98,7 +101,7 @@ void MainWindow::on_import_2_clicked()
 //do this on startup to import any settings
 
 
-
+ ui->sublist->clear();
     QStringList stringList;
   //  QFile textFile;
     QFile file("sublist.txt");
@@ -117,6 +120,10 @@ void MainWindow::on_import_2_clicked()
          qDebug() << test2.at(0) << test2.at(1);
      //    ui->in1->setText(test2.at(0));// << "," << test2.at(1)
      //    ui->in1->setText(test2.at(1));//
+QString itemtxt = test2.at(0).toLatin1();
+        itemtxt += ",";
+        itemtxt += test2.at(1).toLatin1();
+         ui->sublist->addItem(itemtxt.toLatin1());
     }
 
 
