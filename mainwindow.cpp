@@ -99,12 +99,12 @@ ui->in2->setText(test2.at(1));
 void MainWindow::on_import_2_clicked()
 {
 //do this on startup to import any settings
-
-
+    QFile file("sublist.txt");
+if (file.exists()){
  ui->sublist->clear();
     QStringList stringList;
   //  QFile textFile;
-    QFile file("sublist.txt");
+
     file.open(QIODevice::ReadWrite | QFile::Text);
 
     QTextStream textStream(&file);
@@ -127,6 +127,9 @@ QString itemtxt = test2.at(0).toLatin1();
     }
 
        file.close();
+}
+
+
 }
 
 void MainWindow::on_editbtn_clicked()

@@ -21,7 +21,7 @@
        <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(228, 15, 15), stop:1 rgba(255, 255, 255, 255))</string>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="Traslate">
        <attribute name="title">
@@ -37,23 +37,6 @@
            <item row="5" column="0">
             <widget class="QLineEdit" name="in2"/>
            </item>
-           <item row="0" column="1">
-            <widget class="QLabel" name="label">
-             <property name="text">
-              <string>Text to translate</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="1">
-            <widget class="QTextEdit" name="input"/>
-           </item>
-           <item row="0" column="0">
-            <widget class="QLabel" name="label_3">
-             <property name="text">
-              <string>SubList</string>
-             </property>
-            </widget>
-           </item>
            <item row="3" column="1">
             <widget class="QTextEdit" name="translated"/>
            </item>
@@ -64,28 +47,31 @@
              </property>
             </widget>
            </item>
-           <item row="2" column="1">
-            <widget class="QLabel" name="label_2">
-             <property name="text">
-              <string>Translated</string>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="0">
-            <widget class="QLineEdit" name="in1"/>
-           </item>
-           <item row="5" column="1">
-            <widget class="QPushButton" name="translatebtn">
-             <property name="text">
-              <string>Translate</string>
-             </property>
-            </widget>
-           </item>
            <item row="1" column="0" rowspan="3">
             <widget class="QListWidget" name="sublist">
              <item>
               <property name="text">
                <string>yes,no</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>add,remove</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>along,missing</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>when,ago</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>emergencies,parties</string>
               </property>
              </item>
              <item>
@@ -830,6 +816,40 @@
              </item>
             </widget>
            </item>
+           <item row="4" column="0">
+            <widget class="QLineEdit" name="in1"/>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Translated</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Text to translate</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QPushButton" name="translatebtn">
+             <property name="text">
+              <string>Translate</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>SubList</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QTextEdit" name="input"/>
+           </item>
           </layout>
          </widget>
         </item>
@@ -844,8 +864,8 @@
          <rect>
           <x>20</x>
           <y>10</y>
-          <width>101</width>
-          <height>96</height>
+          <width>151</width>
+          <height>101</height>
          </rect>
         </property>
         <property name="title">
@@ -867,6 +887,23 @@
           </widget>
          </item>
         </layout>
+       </widget>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>150</y>
+          <width>471</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;well, if you have missing updates from the main server to the wordlist its because its loading your own, delete to receive new updates.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
        </widget>
       </widget>
       <widget class="QWidget" name="tab">
