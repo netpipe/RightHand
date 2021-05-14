@@ -21,7 +21,7 @@
        <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(228, 15, 15), stop:1 rgba(255, 255, 255, 255))</string>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="Traslate">
        <attribute name="title">
@@ -49,6 +49,41 @@
              <item>
               <property name="text">
                <string>yes,no</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>she,he</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>are,arnt</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>aint,arnt</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>ugly,pretty</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>eyes,esp</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>eye,knocker</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>parole,board</string>
               </property>
              </item>
              <item>
