@@ -90,6 +90,26 @@
              </item>
              <item>
               <property name="text">
+               <string>money,problems</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>earth,death-star</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>newer,older</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>new,old</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>tell,zipit</string>
               </property>
              </item>
@@ -435,7 +455,7 @@
              </item>
              <item>
               <property name="text">
-               <string>old,young</string>
+               <string>ancient,young</string>
               </property>
              </item>
              <item>
