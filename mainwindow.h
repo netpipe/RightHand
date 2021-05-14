@@ -20,6 +20,12 @@ private slots:
 
     void on_sublist_itemSelectionChanged();
 
+    void on_import_2_clicked();
+
+    void on_editbtn_clicked();
+
+    void on_export_2_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

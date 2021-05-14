@@ -80,4 +80,38 @@ void MainWindow::on_translatebtn_clicked()
 void MainWindow::on_sublist_itemSelectionChanged()
 {
 
+
+QString test = ui->sublist->currentItem()->text();
+QStringList test2 = test.split(",");
+ui->in1->setText(test2.at(0));
+ui->in2->setText(test2.at(1));
+
+
+}
+
+void MainWindow::on_import_2_clicked()
+{
+//do this on startup to import any settings
+
+
+}
+
+void MainWindow::on_editbtn_clicked()
+{
+    //if empty in1 and 2 then make new or unselected sublist
+}
+
+void MainWindow::on_export_2_clicked()
+{
+    QStringList exported;
+    int listcount = ui->sublist->count();
+    for (int i=0;i < listcount;i++){
+    QString test = ui->sublist->currentItem()->text();
+    QStringList test2 = test.split(",");
+    exported << test2.at(0) << test2.at(1);
+
+}
+
+//dump exported to file
+
 }
