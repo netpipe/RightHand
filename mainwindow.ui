@@ -34,20 +34,13 @@
            <string>Translator/Substitution/(dyslexic simulator ?)</string>
           </property>
           <layout class="QGridLayout" name="gridLayout">
-           <item row="3" column="1">
-            <widget class="QTextEdit" name="translated"/>
+           <item row="1" column="1">
+            <widget class="QTextEdit" name="input"/>
            </item>
-           <item row="0" column="1">
-            <widget class="QLabel" name="label">
+           <item row="4" column="0">
+            <widget class="QLineEdit" name="in1">
              <property name="text">
-              <string>Text to translate</string>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="1">
-            <widget class="QPushButton" name="editbtn">
-             <property name="text">
-              <string>Add/Edit/Save</string>
+              <string>leave blank and click add button to start new entry</string>
              </property>
             </widget>
            </item>
@@ -56,6 +49,116 @@
              <item>
               <property name="text">
                <string>yes,no</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>beer,hangover</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>problem,money</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>flat,tire</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>tires,flats</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>mud,traction</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>and,stuck</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>inverted,conventional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>finally,testing</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>action,rest</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>flowers,cannons</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>gun,flower</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>sakes,tiredness</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>crooked,angled</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>bent,straight</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>salt,sugar</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>item,box</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>optional,non-optional</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>optional,atall</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>lessthan,equalto</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>cool,hot</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>fire,ice</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>cooler,hotter</string>
               </property>
              </item>
              <item>
@@ -320,7 +423,7 @@
              </item>
              <item>
               <property name="text">
-               <string>money,problems</string>
+               <string>moneys,problems</string>
               </property>
              </item>
              <item>
@@ -910,20 +1013,27 @@
              </item>
             </widget>
            </item>
-           <item row="1" column="1">
-            <widget class="QTextEdit" name="input"/>
+           <item row="5" column="1">
+            <widget class="QPushButton" name="translatebtn">
+             <property name="text">
+              <string>Translate</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QTextEdit" name="translated"/>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Text to translate</string>
+             </property>
+            </widget>
            </item>
            <item row="2" column="1">
             <widget class="QLabel" name="label_2">
              <property name="text">
               <string>Translated</string>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="0">
-            <widget class="QLineEdit" name="in1">
-             <property name="text">
-              <string>leave blank and click add button to start new entry</string>
              </property>
             </widget>
            </item>
@@ -934,10 +1044,10 @@
              </property>
             </widget>
            </item>
-           <item row="5" column="1">
-            <widget class="QPushButton" name="translatebtn">
+           <item row="4" column="1">
+            <widget class="QPushButton" name="editbtn">
              <property name="text">
-              <string>Translate</string>
+              <string>Add/Edit/Save</string>
              </property>
             </widget>
            </item>
@@ -958,14 +1068,21 @@
          <rect>
           <x>20</x>
           <y>10</y>
-          <width>151</width>
-          <height>101</height>
+          <width>161</width>
+          <height>191</height>
          </rect>
         </property>
         <property name="title">
          <string>Translator</string>
         </property>
         <layout class="QGridLayout" name="gridLayout_4">
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>txt files</string>
+           </property>
+          </widget>
+         </item>
          <item row="0" column="0">
           <widget class="QPushButton" name="import_2">
            <property name="text">
@@ -976,8 +1093,17 @@
          <item row="1" column="0">
           <widget class="QPushButton" name="export_2">
            <property name="text">
-            <string>Export</string>
+            <string>ExportAs</string>
            </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QComboBox" name="comboBox">
+           <item>
+            <property name="text">
+             <string>default</string>
+            </property>
+           </item>
           </widget>
          </item>
         </layout>
@@ -985,8 +1111,8 @@
        <widget class="QTextEdit" name="textEdit">
         <property name="geometry">
          <rect>
-          <x>60</x>
-          <y>150</y>
+          <x>220</x>
+          <y>30</y>
           <width>471</width>
           <height>101</height>
          </rect>
@@ -999,6 +1125,55 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;well, if you have missing updates from the main server to the wordlist its because its loading your own, delete to receive new updates.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>150</y>
+          <width>431</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>GroupBox</string>
+        </property>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>140</y>
+           <width>85</width>
+           <height>26</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox_2">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>40</y>
+           <width>71</width>
+           <height>27</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>57</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </widget>
       </widget>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -1008,8 +1183,96 @@ p, li { white-space: pre-wrap; }
         <item row="0" column="0">
          <widget class="QGroupBox" name="groupBox_3">
           <property name="title">
-           <string>GroupBox</string>
+           <string>Sphinx</string>
           </property>
+          <widget class="QRadioButton" name="radioButton_6">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>60</y>
+             <width>101</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>RadioButton</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="radioButton_7">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>90</y>
+             <width>101</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>RadioButton</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>120</y>
+             <width>85</width>
+             <height>26</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>PushButton</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="checkBox">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>130</y>
+             <width>88</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>CheckBox</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_5">
+           <property name="geometry">
+            <rect>
+             <x>220</x>
+             <y>80</y>
+             <width>57</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>volume</string>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="textEdit_2">
+           <property name="geometry">
+            <rect>
+             <x>430</x>
+             <y>0</y>
+             <width>271</width>
+             <height>401</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QSlider" name="horizontalSlider">
+           <property name="geometry">
+            <rect>
+             <x>170</x>
+             <y>60</y>
+             <width>160</width>
+             <height>18</height>
+            </rect>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
          </widget>
         </item>
        </layout>
