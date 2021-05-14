@@ -53,6 +53,26 @@
              </item>
              <item>
               <property name="text">
+               <string>faster,slower</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>download,destroy</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>scam,lucrative</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>legit,phony</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>react,retard</string>
               </property>
              </item>
