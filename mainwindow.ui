@@ -90,6 +90,46 @@
              </item>
              <item>
               <property name="text">
+               <string>tell,zipit</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>home,lost</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>knee,stand</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>rise,fall</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hill,dip</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>lies,truths</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>lie,truth</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>secrets,common</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>ate,shit</string>
               </property>
              </item>
@@ -135,7 +175,7 @@
              </item>
              <item>
               <property name="text">
-               <string>do,don't</string>
+               <string>do,dont</string>
               </property>
              </item>
              <item>
