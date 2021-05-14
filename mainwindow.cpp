@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QDebug>
+#include <qfile.h>
+#include <QTextStream>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -86,12 +88,62 @@ QStringList test2 = test.split(",");
 ui->in1->setText(test2.at(0));
 ui->in2->setText(test2.at(1));
 
+//todo still needs to save and add new row
+
 
 }
 
 void MainWindow::on_import_2_clicked()
 {
 //do this on startup to import any settings
+
+
+
+    QStringList stringList;
+  //  QFile textFile;
+    QFile file("sublist.txt");
+    file.open(QIODevice::ReadWrite | QFile::Text);
+
+    QTextStream textStream(&file);
+    while (true)
+    {
+        QString line = textStream.readLine();
+        if (line.isNull())
+            break;
+        else
+            stringList.append(line);
+
+         QStringList test2 = line.split(",");
+         qDebug() << test2.at(0) << test2.at(1);
+     //    ui->in1->setText(test2.at(0));// << "," << test2.at(1)
+     //    ui->in1->setText(test2.at(1));//
+    }
+
+
+
+
+
+
+
+//    file.open(QIODevice::ReadWrite | QFile::Text);
+
+//    QStringList exported;
+
+
+//    qDebug() << listcount;
+//    for (int i=0;i < listcount;i++){
+//         QTextStream out(&file);
+
+//        QString test =  ui->sublist->item(i)->text(); //ui->sublist->currentItem()->text();
+//        QStringList test2 = test.split(",");
+////        //  exported << test2.at(0) << test2.at(1);
+//        out << test2.at(0).toLatin1() << "," << test2.at(1).toLatin1() << endl;
+//      //  qDebug() << "testing2";
+//    //     qDebug() << test2.at(0).toLatin1();
+
+//    }
+
+       file.close();
 
 
 }
@@ -103,14 +155,26 @@ void MainWindow::on_editbtn_clicked()
 
 void MainWindow::on_export_2_clicked()
 {
-    QStringList exported;
-    int listcount = ui->sublist->count();
-    for (int i=0;i < listcount;i++){
-    QString test = ui->sublist->currentItem()->text();
-    QStringList test2 = test.split(",");
-    exported << test2.at(0) << test2.at(1);
+    QFile file("sublist.txt");
+    file.open(QIODevice::ReadWrite | QFile::Text);
 
-}
+    QStringList exported;
+
+    int listcount = ui->sublist->count();
+    qDebug() << listcount;
+    for (int i=0;i < listcount;i++){
+         QTextStream out(&file);
+
+        QString test =  ui->sublist->item(i)->text(); //ui->sublist->currentItem()->text();
+        QStringList test2 = test.split(",");
+//        //  exported << test2.at(0) << test2.at(1);
+        out << test2.at(0).toLatin1() << "," << test2.at(1).toLatin1() << endl;
+      //  qDebug() << "testing2";
+    //     qDebug() << test2.at(0).toLatin1();
+
+    }
+
+       file.close();
 
 //dump exported to file
 

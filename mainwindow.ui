@@ -90,6 +90,16 @@
              </item>
              <item>
               <property name="text">
+               <string>ever,bit</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>greatest,worst</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>harps,think</string>
               </property>
              </item>
