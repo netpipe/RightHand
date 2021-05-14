@@ -126,38 +126,23 @@ QString itemtxt = test2.at(0).toLatin1();
          ui->sublist->addItem(itemtxt.toLatin1());
     }
 
-
-
-
-
-
-
-//    file.open(QIODevice::ReadWrite | QFile::Text);
-
-//    QStringList exported;
-
-
-//    qDebug() << listcount;
-//    for (int i=0;i < listcount;i++){
-//         QTextStream out(&file);
-
-//        QString test =  ui->sublist->item(i)->text(); //ui->sublist->currentItem()->text();
-//        QStringList test2 = test.split(",");
-////        //  exported << test2.at(0) << test2.at(1);
-//        out << test2.at(0).toLatin1() << "," << test2.at(1).toLatin1() << endl;
-//      //  qDebug() << "testing2";
-//    //     qDebug() << test2.at(0).toLatin1();
-
-//    }
-
        file.close();
-
-
 }
 
 void MainWindow::on_editbtn_clicked()
 {
     //if empty in1 and 2 then make new or unselected sublist
+   if ((ui->in1->text().toLatin1()=="") && (ui->in2->text().toLatin1()=="")){
+
+ui->sublist->insertItem((ui->sublist->count()+1),"new1,new1");
+   }else{
+    QString itemtxt = ui->in1->text().toLatin1();
+            itemtxt += ",";
+            itemtxt += ui->in2->text().toLatin1();
+
+            ui->sublist->currentItem()->setText(itemtxt.toLatin1());
+   }
+
 }
 
 void MainWindow::on_export_2_clicked()
