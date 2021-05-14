@@ -90,6 +90,16 @@
              </item>
              <item>
               <property name="text">
+               <string>your,my</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>soul,disarray</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>money,problems</string>
               </property>
              </item>
