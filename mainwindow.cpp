@@ -161,6 +161,7 @@ on_export_2_clicked();
 
 void MainWindow::on_export_2_clicked()
 {
+
     QFile file("sublist.txt");
     file.open(QIODevice::ReadWrite | QFile::Text);
 

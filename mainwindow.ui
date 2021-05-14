@@ -53,6 +53,41 @@
              </item>
              <item>
               <property name="text">
+               <string>react,retard</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>drop,pickup</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>everywhere,nowhere</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>guy,girl</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>strange,consoling</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>normal,weird</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hurt,euphoria</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>leader,enemy</string>
               </property>
              </item>
@@ -1039,6 +1074,11 @@
              <item>
               <property name="text">
                <string>get,getaway</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>man,woman</string>
               </property>
              </item>
              <item>
