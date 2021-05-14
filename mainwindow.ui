@@ -53,6 +53,46 @@
              </item>
              <item>
               <property name="text">
+               <string>business,dealer</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>deal,done</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>wisdom,poorness</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>rich,poor</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>load,fling</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>amunition,emptys</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>chair,floor</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>word,story</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>click,cut</string>
               </property>
              </item>
