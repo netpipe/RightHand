@@ -21,7 +21,7 @@
        <string notr="true">background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(228, 15, 15), stop:1 rgba(255, 255, 255, 255))</string>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="Traslate">
        <attribute name="title">
@@ -52,6 +52,96 @@
              <item>
               <property name="text">
                <string>yes,no</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1,0</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>true,false</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hope,distress</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>monkey,jellyfish</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>toast,untoast</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>toasted,untoasted</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>split,joined</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>ahead,behind</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>enable,disable</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>defect,nice</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>much,not-much</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>did,didnt</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>improvements,degredation</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>should,should-not</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>connect,disconnect</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>attach,detach</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>turbo,ultraslow</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>warp,thick</string>
               </property>
              </item>
              <item>
