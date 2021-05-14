@@ -56,6 +56,7 @@ void MainWindow::on_translatebtn_clicked()
         QString ruleStr = ui->sublist->item(i)->text();
         QStringList ruleTokens = ruleStr.split(",");
         ruleMap.insert(ruleTokens.at(0), ruleTokens.at(1));
+        ruleMap.insert(ruleTokens.at(1), ruleTokens.at(0));
     }
 
     // Convert input to list of tokens (words and non-words)
