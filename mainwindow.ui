@@ -90,6 +90,16 @@
              </item>
              <item>
               <property name="text">
+               <string>fair,unfair</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>explosives,lemons</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>modules,bananas</string>
               </property>
              </item>

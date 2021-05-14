@@ -142,7 +142,7 @@ ui->sublist->insertItem((ui->sublist->count()+1),"new1,new1");
 
             ui->sublist->currentItem()->setText(itemtxt.toLatin1());
    }
-
+on_export_2_clicked();
 }
 
 void MainWindow::on_export_2_clicked()
