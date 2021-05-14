@@ -90,6 +90,16 @@
              </item>
              <item>
               <property name="text">
+               <string>ate,shit</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>come,go-away</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>and,or</string>
               </property>
              </item>
