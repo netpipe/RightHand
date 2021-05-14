@@ -137,13 +137,24 @@ void MainWindow::on_editbtn_clicked()
     //if empty in1 and 2 then make new or unselected sublist
    if ((ui->in1->text().toLatin1()=="") && (ui->in2->text().toLatin1()=="")){
 
-ui->sublist->insertItem((ui->sublist->count()+1),"new1,new1");
+        ui->sublist->insertItem((ui->sublist->count()+1),"new1,new1");
    }else{
-    QString itemtxt = ui->in1->text().toLatin1();
-            itemtxt += ",";
-            itemtxt += ui->in2->text().toLatin1();
+       QString test = ui->sublist->currentItem()->text();
+       QStringList test2 = test.split(",");
 
-            ui->sublist->currentItem()->setText(itemtxt.toLatin1());
+       if ((test2.at(0).toLatin1()=="new1") && (test2.at(1).toLatin1()=="new1")){
+           QString itemtxt = ui->in1->text().toLatin1();
+                   itemtxt += ",";
+                   itemtxt += ui->in2->text().toLatin1();
+
+                   ui->sublist->currentItem()->setText(itemtxt.toLatin1());
+       }else{
+           QString itemtxt = ui->in1->text().toLatin1();
+                   itemtxt += ",";
+                   itemtxt += ui->in2->text().toLatin1();
+
+                   ui->sublist->currentItem()->setText(itemtxt.toLatin1());
+       }
    }
 on_export_2_clicked();
 }
