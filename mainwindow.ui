@@ -53,6 +53,36 @@
              </item>
              <item>
               <property name="text">
+               <string>read,esp</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>all,none</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>about,forgot</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>rotten,fresh</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>things,waste</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>shooting,evading</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>interested,distracted</string>
               </property>
              </item>
