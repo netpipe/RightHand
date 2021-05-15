@@ -53,6 +53,21 @@
              </item>
              <item>
               <property name="text">
+               <string>horde,single</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>people,beasts</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>kinds,singularized</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>read,esp</string>
               </property>
              </item>
