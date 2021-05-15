@@ -3,6 +3,8 @@
 #include <QDebug>
 #include <qfile.h>
 #include <QTextStream>
+#include <QFileDialog>
+#include <QDirIterator>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -10,6 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    on_Load();
     on_import_2_clicked();
 
 }
@@ -108,7 +111,9 @@ ui->in2->setText(test2.at(1));
 void MainWindow::on_import_2_clicked()
 {
 //do this on startup to import any settings
-    QFile file("sublist.txt");
+
+    QFile file(ui->loadlistcmb->currentText());
+   //     QFile file("sublist.txt");
 if (file.exists()){
  ui->sublist->clear();
     QStringList stringList;
@@ -171,8 +176,11 @@ on_export_2_clicked();
 void MainWindow::on_export_2_clicked()
 {
 
-    QFile file("sublist.txt");
+QString Filename = QFileDialog::getSaveFileName(this, "Save File",".txt",".txt");
+    QFile file(Filename);
     file.open(QIODevice::ReadWrite | QFile::Text);
+
+
 
     QStringList exported;
 
@@ -193,8 +201,28 @@ void MainWindow::on_export_2_clicked()
        file.close();
 
 //dump exported to file
+       on_Load();
 
 }
+
+
+void MainWindow::on_Load()
+{
+
+    QDirIterator it("./", QStringList() << "*.txt", QDir::Files, QDirIterator::Subdirectories);
+    while (it.hasNext()){
+      //  QFileInfo fileInfo(f.fileName());
+        ui->loadlistcmb->addItem(it.next().toLatin1());
+    }
+
+    if (ui->loadlistcmb->currentText() == "default"){
+        qDebug() << "testing";
+    }
+
+}
+
+
+
 
 void MainWindow::on_comboBox_activated(const QString &arg1)
 {

@@ -28,6 +28,8 @@ private slots:
 
     void on_comboBox_activated(const QString &arg1);
 
+    void on_Load();
+
 private:
     Ui::MainWindow *ui;
 };
