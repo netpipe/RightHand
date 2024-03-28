@@ -100,6 +100,16 @@
              </item>
              <item>
               <property name="text">
+               <string>i'll,you'll</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>ill,youwill</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>farting,busy</string>
               </property>
              </item>
@@ -111,6 +121,11 @@
              <item>
               <property name="text">
                <string>tomany,notenough</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>to-many,not-enough</string>
               </property>
              </item>
              <item>
