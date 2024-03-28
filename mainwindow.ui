@@ -40,8 +40,15 @@
            <string>Translator/Substitution/(dyslexic simulator ?)</string>
           </property>
           <layout class="QGridLayout" name="gridLayout">
-           <item row="1" column="1">
-            <widget class="QTextEdit" name="input"/>
+           <item row="5" column="0">
+            <widget class="QLineEdit" name="in2"/>
+           </item>
+           <item row="5" column="1">
+            <widget class="QPushButton" name="translatebtn">
+             <property name="text">
+              <string>Translate</string>
+             </property>
+            </widget>
            </item>
            <item row="4" column="0">
             <widget class="QLineEdit" name="in1">
@@ -50,11 +57,80 @@
              </property>
             </widget>
            </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Translated</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>SubList</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Text to translate</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QTextEdit" name="translated"/>
+           </item>
+           <item row="1" column="1">
+            <widget class="QTextEdit" name="input"/>
+           </item>
+           <item row="4" column="1">
+            <widget class="QPushButton" name="editbtn">
+             <property name="text">
+              <string>Add/Edit/Save</string>
+             </property>
+            </widget>
+           </item>
            <item row="1" column="0" rowspan="3">
             <widget class="QListWidget" name="sublist">
              <item>
               <property name="text">
                <string>yes,no</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>crotch,armpit</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>starvate,full</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>empty,fill</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>mom,dad</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>mother,father</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>brother,sister</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>yourselfs,yourdad</string>
               </property>
              </item>
              <item>
@@ -1089,7 +1165,12 @@
              </item>
              <item>
               <property name="text">
-               <string>easy,hard</string>
+               <string>soft,hard</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>harder,easy</string>
               </property>
              </item>
              <item>
@@ -1433,47 +1514,6 @@
               </property>
              </item>
             </widget>
-           </item>
-           <item row="5" column="1">
-            <widget class="QPushButton" name="translatebtn">
-             <property name="text">
-              <string>Translate</string>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="1">
-            <widget class="QTextEdit" name="translated"/>
-           </item>
-           <item row="0" column="1">
-            <widget class="QLabel" name="label">
-             <property name="text">
-              <string>Text to translate</string>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="1">
-            <widget class="QLabel" name="label_2">
-             <property name="text">
-              <string>Translated</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="0">
-            <widget class="QLabel" name="label_3">
-             <property name="text">
-              <string>SubList</string>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="1">
-            <widget class="QPushButton" name="editbtn">
-             <property name="text">
-              <string>Add/Edit/Save</string>
-             </property>
-            </widget>
-           </item>
-           <item row="5" column="0">
-            <widget class="QLineEdit" name="in2"/>
            </item>
           </layout>
          </widget>
