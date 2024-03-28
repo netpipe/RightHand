@@ -100,12 +100,32 @@
              </item>
              <item>
               <property name="text">
-               <string>brush,scratcher</string>
+               <string>brusher,gouger</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>scratcher,tickler</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>scratch,tickle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>brush,gouge</string>
               </property>
              </item>
              <item>
               <property name="text">
                <string>girlfriend,boyfriend</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>cyclist,lazyperson</string>
               </property>
              </item>
              <item>
@@ -121,6 +141,11 @@
              <item>
               <property name="text">
                <string>stranger,cousin</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>lazy,unlazy</string>
               </property>
              </item>
              <item>
