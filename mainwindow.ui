@@ -105,6 +105,26 @@
              </item>
              <item>
               <property name="text">
+               <string>bum,looks</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>butthole,chair</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>basterd,heavenly</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>heaven,hell</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>?,!</string>
               </property>
              </item>
