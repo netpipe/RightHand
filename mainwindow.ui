@@ -59,6 +59,16 @@
              </item>
              <item>
               <property name="text">
+               <string>touch,restore</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>licked,energetic</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>lips,lipless</string>
               </property>
              </item>
@@ -70,6 +80,11 @@
              <item>
               <property name="text">
                <string>cheeks,teeth</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>energy,void</string>
               </property>
              </item>
              <item>
