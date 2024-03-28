@@ -100,6 +100,21 @@
              </item>
              <item>
               <property name="text">
+               <string>transaction,mess</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>broke,fix</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>broken,fixed</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>one,lots</string>
               </property>
              </item>
@@ -111,6 +126,11 @@
              <item>
               <property name="text">
                <string>nuts,dirt</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>disorder,path</string>
               </property>
              </item>
              <item>
