@@ -100,6 +100,16 @@
              </item>
              <item>
               <property name="text">
+               <string>level,game</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>sky,ground</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>basterds,angels</string>
               </property>
              </item>
