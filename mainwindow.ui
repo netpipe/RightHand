@@ -190,7 +190,42 @@
              </item>
              <item>
               <property name="text">
-               <string>toot,orchestra</string>
+               <string>toot,silence</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>quieted,turnedup</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>quiet,loud</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>orchestra,onemanband</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>orchestrated,fellapart</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>heavymetal,gardening</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>tooted,silenced</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>absorbe,explode</string>
               </property>
              </item>
              <item>
