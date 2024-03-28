@@ -100,7 +100,22 @@
              </item>
              <item>
               <property name="text">
+               <string>hands,gloves</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>feet,shoes</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>crotch,armpit</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>foot,shoe</string>
               </property>
              </item>
              <item>
