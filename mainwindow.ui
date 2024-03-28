@@ -100,6 +100,31 @@
              </item>
              <item>
               <property name="text">
+               <string>togetherness,diarrhea</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>?,!</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>together,apart</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>black,white</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>cacucasion,african</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>hands,gloves</string>
               </property>
              </item>
@@ -111,6 +136,11 @@
              <item>
               <property name="text">
                <string>crotch,armpit</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>asian,unasian</string>
               </property>
              </item>
              <item>
