@@ -59,6 +59,21 @@
              </item>
              <item>
               <property name="text">
+               <string>lips,lipless</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>wound,lip</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>cheeks,teeth</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>wreck,fix</string>
               </property>
              </item>
