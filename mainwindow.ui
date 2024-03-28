@@ -100,6 +100,26 @@
              </item>
              <item>
               <property name="text">
+               <string>finger,dick</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>fingers,dicks</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>vagina,smile</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>walls,doors</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>open,close</string>
               </property>
              </item>
