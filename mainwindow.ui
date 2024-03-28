@@ -100,7 +100,22 @@
              </item>
              <item>
               <property name="text">
+               <string>burner,extinguisher</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>burn,extinguish</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>ram,harddrive</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>key,mudpie</string>
               </property>
              </item>
              <item>
