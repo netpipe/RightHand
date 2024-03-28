@@ -100,6 +100,26 @@
              </item>
              <item>
               <property name="text">
+               <string>mean,grattitude</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>dreams,nightmares</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>smelling,desencatising</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>smell,senseless</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>finger,dick</string>
               </property>
              </item>
