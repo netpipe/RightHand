@@ -100,6 +100,31 @@
              </item>
              <item>
               <property name="text">
+               <string>purse,vacuume</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>bag,coat</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>speak,spoke</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>tool,wetnoodle</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>back,front</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>mean,grattitude</string>
               </property>
              </item>
