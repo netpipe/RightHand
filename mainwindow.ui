@@ -100,7 +100,47 @@
              </item>
              <item>
               <property name="text">
+               <string>car,truck</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>jar,box</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>toot,orchestra</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>funny,unfunny</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>town,house</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>space,home</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>ruler,peasant</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>leader,brainless</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>nugget,spray</string>
               </property>
              </item>
              <item>
