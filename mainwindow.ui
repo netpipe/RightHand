@@ -100,6 +100,26 @@
              </item>
              <item>
               <property name="text">
+               <string>ram,harddrive</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>mouse,keyboard</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>speakers,monitor</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>brain,terd</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>works,notworking</string>
               </property>
              </item>
