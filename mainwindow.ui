@@ -59,6 +59,21 @@
              </item>
              <item>
               <property name="text">
+               <string>wreck,fix</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>destroy,ammend</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>eat,starve</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>have,gave</string>
               </property>
              </item>
