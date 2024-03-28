@@ -110,7 +110,12 @@
              </item>
              <item>
               <property name="text">
-               <string>speakers,monitor</string>
+               <string>speakers,cdrom</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>camera,monitor</string>
               </property>
              </item>
              <item>
