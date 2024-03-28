@@ -120,6 +120,21 @@
              </item>
              <item>
               <property name="text">
+               <string>keys,mudpies</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>tooth,gum</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>teeth,gums</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>mouse,keyboard</string>
               </property>
              </item>
