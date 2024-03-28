@@ -100,7 +100,37 @@
              </item>
              <item>
               <property name="text">
+               <string>ye,nay</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>snake,legged</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>weasel,winner</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>looser,angel</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>gay,unhappy</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>yellow,blue</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>green,red</string>
               </property>
              </item>
              <item>
