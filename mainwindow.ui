@@ -100,6 +100,21 @@
              </item>
              <item>
               <property name="text">
+               <string>funny,unfunny</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>funnier,crappier</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>crap,goodtime</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>togetherness,diarrhea</string>
               </property>
              </item>
