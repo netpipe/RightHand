@@ -100,6 +100,31 @@
              </item>
              <item>
               <property name="text">
+               <string>christmas,awefulday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>solarpanel,laser</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>socks,barefoot</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>birthday,funeral</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>try,giveup</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>level,game</string>
               </property>
              </item>
