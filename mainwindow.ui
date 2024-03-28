@@ -105,6 +105,16 @@
              </item>
              <item>
               <property name="text">
+               <string>dismal,interesting</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>bleak,bling</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>broke,fix</string>
               </property>
              </item>
