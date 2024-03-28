@@ -100,6 +100,21 @@
              </item>
              <item>
               <property name="text">
+               <string>offering,collecting</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>offer,collect</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>ide,youll</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>sorry,insulting</string>
               </property>
              </item>
@@ -1455,7 +1470,7 @@
              </item>
              <item>
               <property name="text">
-               <string>too,not-there</string>
+               <string>too,from</string>
               </property>
              </item>
              <item>
