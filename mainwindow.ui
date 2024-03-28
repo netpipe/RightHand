@@ -100,12 +100,62 @@
              </item>
              <item>
               <property name="text">
+               <string>gay,unhappy</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>clean,dirty</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>shiny,dull</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>seethrough,opaque</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>neon,unlit</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>lit,smoldering</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>inferno,ocean</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>car,truck</string>
               </property>
              </item>
              <item>
               <property name="text">
                <string>jar,box</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>stand,sit</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>standing,sitting</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>pillow,torture</string>
               </property>
              </item>
              <item>
