@@ -100,7 +100,27 @@
              </item>
              <item>
               <property name="text">
+               <string>brush,scratcher</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>girlfriend,boyfriend</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>girl,boy</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>stamp,write</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>stranger,cousin</string>
               </property>
              </item>
              <item>
@@ -121,6 +141,11 @@
              <item>
               <property name="text">
                <string>phone,envelope</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>television,painting</string>
               </property>
              </item>
              <item>
