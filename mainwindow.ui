@@ -100,6 +100,56 @@
              </item>
              <item>
               <property name="text">
+               <string>star,burst</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>orbit,stale</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>orbiting,fleeing</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>order,chaos</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>sun,moon</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>tinroof,shingles</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>jew,notjew</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>container,everywhere</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>roof,floor</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>pizza,hungry</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>i'll,you'll</string>
               </property>
              </item>
