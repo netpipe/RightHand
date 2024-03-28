@@ -100,6 +100,26 @@
              </item>
              <item>
               <property name="text">
+               <string>sane,insane</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>nuts,dirt</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>ears,rock</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>laugh,cry</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>christmas,awefulday</string>
               </property>
              </item>
