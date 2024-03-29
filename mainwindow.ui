@@ -100,6 +100,21 @@
              </item>
              <item>
               <property name="text">
+               <string>thought,missed</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>thoughtful,thankless</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>mindful,mindless</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>death,life</string>
               </property>
              </item>
