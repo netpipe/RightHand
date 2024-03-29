@@ -100,7 +100,27 @@
              </item>
              <item>
               <property name="text">
+               <string>mouse,elephant</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>mice,elephants</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>mouses,stampedes</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>saint,sinner</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>human,robot</string>
               </property>
              </item>
              <item>
