@@ -100,6 +100,21 @@
              </item>
              <item>
               <property name="text">
+               <string>giant,ant</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hurt,pleasure</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hurts,pleasures</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>leap,slither</string>
               </property>
              </item>
@@ -116,6 +131,16 @@
              <item>
               <property name="text">
                <string>burner,extinguisher</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>big,small</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>sometimes,never</string>
               </property>
              </item>
              <item>
