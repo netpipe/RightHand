@@ -100,6 +100,16 @@
              </item>
              <item>
               <property name="text">
+               <string>gone,here</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>through,outof</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>mouse,elephant</string>
               </property>
              </item>
