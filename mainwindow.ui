@@ -100,6 +100,41 @@
              </item>
              <item>
               <property name="text">
+               <string>grab,release</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>before,finished</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>pry,ignore</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>shut,unshut</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>scalp,bone</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>scalped,boned</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>flower,knife</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>thought,missed</string>
               </property>
              </item>
