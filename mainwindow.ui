@@ -105,6 +105,11 @@
              </item>
              <item>
               <property name="text">
+               <string>idea,thoughtless</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>different,same</string>
               </property>
              </item>
@@ -1285,7 +1290,12 @@
              </item>
              <item>
               <property name="text">
-               <string>intelligent,stupid</string>
+               <string>intelligent,unintelligent</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>stupid,smart</string>
               </property>
              </item>
              <item>
