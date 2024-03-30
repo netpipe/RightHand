@@ -100,6 +100,21 @@
              </item>
              <item>
               <property name="text">
+               <string>again,nomore</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>different,same</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>difference,similarity</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>grab,release</string>
               </property>
              </item>
