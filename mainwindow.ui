@@ -108,6 +108,26 @@
              </item>
              <item>
               <property name="text">
+               <string>bank,strippers</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>covering,coverup</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>listen,cover</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>government,coup</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>just,unjust</string>
               </property>
              </item>
