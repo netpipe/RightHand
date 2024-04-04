@@ -108,6 +108,36 @@
              </item>
              <item>
               <property name="text">
+               <string>zap,unzap</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>shock,notshock</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>shocking,notshocking</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>effective,pointless</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>yesterday,lastyear</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>needed,threwout</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>bank,strippers</string>
               </property>
              </item>
