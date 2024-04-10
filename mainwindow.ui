@@ -108,6 +108,21 @@
              </item>
              <item>
               <property name="text">
+               <string>fraile,unfraile</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>fragile,strong</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>hooker,nonhooker</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>zap,unzap</string>
               </property>
              </item>
