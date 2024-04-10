@@ -108,6 +108,16 @@
              </item>
              <item>
               <property name="text">
+               <string>smelly,unsmelly</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>butt,nose</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>fraile,unfraile</string>
               </property>
              </item>
