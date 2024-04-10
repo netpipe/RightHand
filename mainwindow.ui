@@ -113,12 +113,17 @@
              </item>
              <item>
               <property name="text">
-               <string>fragile,strong</string>
+               <string>fragile,unfragile</string>
               </property>
              </item>
              <item>
               <property name="text">
                <string>hooker,nonhooker</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>strong,weak</string>
               </property>
              </item>
              <item>
