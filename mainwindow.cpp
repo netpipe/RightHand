@@ -77,7 +77,7 @@ void MainWindow::on_translatebtn_clicked()
         if (ruleMap.contains(inputToken)) {
             output.append(ruleMap[inputToken]);
         } else {
-            if (inputToken.length() > 2){
+            if (inputToken.length() > 1){
                 output.append("un"+inputToken);}else{ output.append(inputToken);}
         }
     }
