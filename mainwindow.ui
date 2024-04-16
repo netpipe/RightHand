@@ -108,6 +108,41 @@
              </item>
              <item>
               <property name="text">
+               <string>whos,whosnot</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>brains,terds</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>any,lots</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>plenty,few</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>adult,kid</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>adults,kids</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>inside,outside</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>smelly,unsmelly</string>
               </property>
              </item>
