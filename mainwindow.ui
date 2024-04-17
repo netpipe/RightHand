@@ -128,12 +128,27 @@
              </item>
              <item>
               <property name="text">
-               <string>adult,kid</string>
+               <string>adult,child</string>
               </property>
              </item>
              <item>
               <property name="text">
-               <string>adults,kids</string>
+               <string>adults,children</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>kids,grownups</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>grownup,kid</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>grown,shrank</string>
               </property>
              </item>
              <item>
