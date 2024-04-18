@@ -158,11 +158,6 @@
              </item>
              <item>
               <property name="text">
-               <string>smelly,unsmelly</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
                <string>butt,nose</string>
               </property>
              </item>
@@ -563,7 +558,12 @@
              </item>
              <item>
               <property name="text">
-               <string>television,painting</string>
+               <string>television,untelevised</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>painting,unpainted</string>
               </property>
              </item>
              <item>
@@ -608,7 +608,7 @@
              </item>
              <item>
               <property name="text">
-               <string>smell,senseless</string>
+               <string>smelly,scentless</string>
               </property>
              </item>
              <item>
