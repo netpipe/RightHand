@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    on_Load();
+   // on_Load();
     on_import_2_clicked();
 
 }
@@ -113,8 +113,8 @@ void MainWindow::on_import_2_clicked()
 {
 //do this on startup to import any settings
 
-    QFile file(ui->loadlistcmb->currentText());
-   //     QFile file("sublist.txt");
+   // QFile file(ui->loadlistcmb->currentText());
+        QFile file("default.txt");
 if (file.exists()){
  ui->sublist->clear();
     QStringList stringList;
@@ -177,7 +177,8 @@ on_export_2_clicked();
 void MainWindow::on_export_2_clicked()
 {
 
-QString Filename = QFileDialog::getSaveFileName(this, "Save File",".txt",".txt");
+//QString Filename = QFileDialog::getSaveFileName(this, "Save File",".txt",".txt");
+    QString Filename = "./default.txt";
     QFile file(Filename);
     file.open(QIODevice::ReadWrite | QFile::Text);
 
@@ -219,13 +220,5 @@ void MainWindow::on_Load()
     if (ui->loadlistcmb->currentText() == "default"){
         qDebug() << "testing";
     }
-
-}
-
-
-
-
-void MainWindow::on_comboBox_activated(const QString &arg1)
-{
 
 }

@@ -26,7 +26,7 @@ private slots:
 
     void on_export_2_clicked();
 
-    void on_comboBox_activated(const QString &arg1);
+   // void on_comboBox_activated(const QString &arg1);
 
     void on_Load();
 
